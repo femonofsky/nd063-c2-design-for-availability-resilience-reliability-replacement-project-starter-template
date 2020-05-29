@@ -1,0 +1,10 @@
+
+
+1. Minimum RTO for single AZ outage - 45 minutes (response time of support 15 minutes + backup retention period 30 minutes )
+
+2) Minimum RTO for single region outage - 1 hour (on-call staff start diagnosing issue 30 minutes + backup retention and promotion of replica is 30 minutes )
+
+3) Minimum RPO for single AZ outage - 10 minutes(since we have failover in different AZ)
+
+4) Minimum RPO or single region outage - 24 hours (since we usually backup every 24 hours)
+
